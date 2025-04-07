@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <title>Rippling Task - Manage and Search Your Pending Tasks In Clicks!</title>
+    <link rel="icon" href="./assets/logo.png" type="image/png">
+  </head>
+  <body class="bg-[#FDB71C] md:p-4">
+    <div class="container mx-auto w-full p-2 md:p-6 md:w-[650px] rounded-md">
+      <section class="header text-center mb-8">
+        <div class="title font-bold text-3xl mb-2.5 text-[#543640]">Rippling Task</div>
+        <div class="subtitle text-[#543640]">Manage and Search Your Pending Tasks In Clicks!</div>
+      </section>
+      <section class="main">
+        <section class="search-container bg-[#FDFAF6] p-3 mb-4 rounded-md">
+          <form class="search-form h-10 flex items-center">
+            <input type="text" placeholder="search task" autocomplete="off" class="bg-white w-full h-full p-2 outline-0 border-2 rounded">
+            <i class="clear-search ri-close-circle-line text-2xl p-2 cursor-pointer"></i>
+          </form>
+        </section>
+        <section class="task-list-container p-3 mb-4 bg-[#FDFAF6] rounded-md">
+          <ul class="tasks mb-8 flex flex-col gap-2">
+            <li class="bg-[#E4EFE7] flex justify-between">
+              <span class="px-3 my-auto">Complete Youtube Variable-Verse Js Playlist</span>
+              <i class="delete-icon ri-delete-bin-6-fill bg-red-500 text-white p-2 cursor-pointer"></i>
+            </li>
+            <li class="bg-[#E4EFE7]  flex justify-between">
+              <span class="px-3 my-auto">Complete DSA Two Pointer Concepts</span>
+              <i class="delete-icon ri-delete-bin-6-fill bg-red-500 text-white p-2 cursor-pointer"></i>
+            </li>
+            <li class="bg-[#E4EFE7] flex justify-between">
+              <span class="px-3 my-auto">Start of with React Basics</span>
+              <i class="delete-icon ri-delete-bin-6-fill bg-red-500 text-white p-2 cursor-pointer"></i>
+            </li>
+          </ul>
+          <form class="add-form h-10 flex gap-1.5 items-center">
+            <input type="text" autocomplete="off" placeholder="add task" class="bg-[#FDFAF6] w-full h-full p-2 outline-0 border-2 rounded">
+            <input type="submit" value="Add" class="bg-[#015551] font-semibold text-slate-100 h-full px-4 cursor-pointer rounded">
+          </form>
+        </section>
+        <section class="clearall-container p-3 bg-[#FDFAF6] flex justify-between items-center rounded-md">
+          <span class="pending-task-context">You have 3 pending tasks.</span>
+          <button class="clearAll-btn bg-[#015551] font-semibold text-slate-100 px-4 py-2 rounded cursor-pointer">Clear All</button>
+        </section>
+      </section>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
