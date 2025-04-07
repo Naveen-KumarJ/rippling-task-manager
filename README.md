@@ -2,7 +2,7 @@
 
 A sleek and responsive **task manager** app built with **Tailwind CSS** and **Vanilla JavaScript**. Easily add, search, delete, or clear all your tasks in just a few clicks.
 
-![Screenshot](./assets/output.png)
+![Screenshot](./src/assets/output.png)
 
 ---
 
